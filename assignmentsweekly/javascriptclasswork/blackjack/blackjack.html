@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blackjack</title>
+  <link rel="stylesheet" href="./blackjack.css">
+
+</head>
+
+<body>
+    <div class="layout">
+        <h2>Dealer Hand <span id="dealer-sum"></span></h2>
+        <div class="wrapper">
+            <div class="blank-box">
+                <img id="hidden" src="./images/0_of_cover.png" alt="">
+            </div>
+            <div class="cards" id="dealer"></div>
+        </div>
+        <h2>Player Hand : <span id="player-sum"></span></h2>
+        <div class="wrapper">
+            <div class="blank-box">
+                <img id="hidden" src="./images/0_of_cover.png" alt="">
+            </div>
+            <div class="cards" id="player"></div>
+        </div>
+        <div class="wrapper">
+            <div class="container" id="button-container">
+                <button id="hit-button">Hit</button>
+                <button id="pass-button">Stand</button>
+                <button id="next-hand-button">Deal Next Hand</button>
+            </div>
+
+        <div id="message"></div>
+        </div>
+    </div>
+    <script src="./blackjack.js"></script>
+</body>
+
+</html>
