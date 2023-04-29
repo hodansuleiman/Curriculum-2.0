@@ -3,7 +3,7 @@ function checkAuth(req, res, next){
     if(password === '1234' && username ==='raul'){
         next();
     }else {
-      res.jason({iserror:true}); 
+      res.json({isError:true}); 
     }
 }
 
